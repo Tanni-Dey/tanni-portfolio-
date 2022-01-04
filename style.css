@@ -8,8 +8,9 @@ h1{
 .color{
     color: orange;
 }
-section{
+.flexible_container{
     display: flex;
+    padding-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -19,9 +20,13 @@ section{
     width: 80%;
     padding-top: 7%;
 }
+.big{
+    font-size: 50px;
+}
 p{
     font-weight: 400;
     color: rgb(90, 90, 90);
+    padding-bottom: 20px;
 }
 .hire{
     color: white;
@@ -35,4 +40,38 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.experience-area h1{
+    padding-left: 50px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1; 
+}
+footer p{
+    text-align: center;
 }
