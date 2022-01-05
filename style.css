@@ -70,7 +70,7 @@ p{
 #baby-developer{
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1; 
+    border-image-slice: 5; 
 }
 footer p{
     text-align: center;
